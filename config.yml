@@ -1,7 +1,8 @@
+forge_support: true
 connection_throttle_limit: 3
+timeout: 30000
 online_mode: true
 log_commands: false
-network_compression_threshold: 256
 listeners:
 - query_port: 25566
   motd: Want to play a game?
@@ -14,7 +15,7 @@ listeners:
     us.iocraft.org: United_States
     turkey.iocraft.org: Turkey
     canada.iocraft.org: Canada
-  ping_passthrough: false
+  ping_passthrough: true
   priorities:
   - United_States
   - Turkey
@@ -31,11 +32,10 @@ groups:
 log_pings: true
 ip_forward: true
 prevent_proxy_connections: false
-forge_support: true
-stats: a9ac05cb-05fd-4989-b176-b0e439f019fd
+network_compression_threshold: 256
 disabled_commands:
 - disabledcommandhere
-timeout: 30000
+stats: a9ac05cb-05fd-4989-b176-b0e439f019fd
 permissions:
   default:
   - bungeecord.command.server
