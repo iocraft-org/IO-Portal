@@ -13,6 +13,7 @@ listeners:
     pvp.md-5.net: pvp
   ping_passthrough: false
   priorities:
+  - Vanilla
   - United_States
   - Turkey
   - Canada
@@ -42,6 +43,10 @@ permissions:
   - bungeecord.command.ip
   - bungeecord.command.reload
 servers:
+  Vanilla:
+    motd: Want to play a game?
+    address: vanilla.iocraft.org:25565
+    restricted: false
   United_States:
     motd: Want to play a game?
     address: us.iocraft.org:25565
