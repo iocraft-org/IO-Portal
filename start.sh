@@ -12,8 +12,8 @@ MYSQL_HOSTNAME=$(cat ~/.mysql_hostname)
 #MCR_PASS=$(cat ~/.mcr_pass)
 #MONGO=$(cat ~/.mongo)
 JAR="Travertine.jar"
-RAM_MIN="1G"
-RAM_MAX="2G"
+RAM_MIN="256M"
+RAM_MAX="512M"
 CPU_CORES="1"
 if ! screen -list | grep -q "iogame"; then
 	echo "Server is starting!"
